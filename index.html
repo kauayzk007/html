@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Cadastro</title>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Cadastro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+</head>
+<body>
+
+  <header>
+    <h1>Cadastro de Usuário</h1>
+    <blockquote>“Seja bem-vindo! Preencha seus dados abaixo.”</blockquote>
+  </header>
+
+  <main>
+    <img src="https://m.media-amazon.com/images/I/813kqvYoRfL.png" alt="Imagem exemplo" width="300">
+
+    <form>
+      <fieldset>
+        <legend>Informações Pessoais</legend>
+        <label><input type="radio" name="genero" value="m"> Masculino</label>
+        <label><input type="radio" name="genero" value="f"> Feminino</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Localização</legend>
+        <label for="cidade">Cidade:</label>
+        <select name="cidade" id="cidade">
+          <option value="sp">São Paulo</option>
+          <option value="rj">Rio de Janeiro</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Detalhes de Contato</legend>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" placeholder="Digite seu nome">
+        
+        <label for="tel">Telefone:</label>
+        <input type="tel" id="tel" placeholder="(xx) xxxxx-xxxx">
+      </fieldset>
+
+    </form>
+
+    <iframe 
+      width="400" height="267"
+      src="https://im.indiatimes.in/content/2019/Sep/blinking_guy_meme_1569407297.gif?w=400&h=267&cc=1&webp=1&q=75" 
+      title="Meme"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+  </main>
+<form id="formCadastro">
+  ...
+  <button type="submit">Enviar</button>
+</form>
+
+<div id="resultado"></div>
+</body>
+</html>
